@@ -31,7 +31,10 @@ def list_of_directors(source)
   names = []
   while array_index < source.length do 
     names.push(source[array_index][:name])
+<<<<<<< HEAD
     array_index += 1
+=======
+>>>>>>> cac85f4d52ab26a03a9cd310ae2c6fc7c04f95d5
   end
   names
   
